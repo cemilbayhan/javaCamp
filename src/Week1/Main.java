@@ -18,11 +18,11 @@ public class Main {
         System.out.println("\tGiriş yapmak için 1'e\n\tKayıt olmak için 2'ye basınız :");
         secim = scanner.nextInt();
         if(secim==1){
-            student.SignIn(student);
-            System.out.println("KAYIT BAŞARILI\nGiriş bilgilerinizi giriniz:");
             student.LogIn();
         }
         else if(secim==2){
+            student.SignIn(student);
+            System.out.println("KAYIT BAŞARILI\nGiriş bilgilerinizi giriniz:");
             student.LogIn();
         }
         else{
